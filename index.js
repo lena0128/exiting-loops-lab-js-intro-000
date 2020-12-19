@@ -19,20 +19,12 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 
-fucntion findFn() {
-const c = Math.floor(Math.random() * 100);
-for (let i = 0; i < array.length; i++){
-  if(array[i] === c);
-  console.log(array[i]);
-}
-}
-
 function findBy(array, findFn) {
   for(let i = 0; i < array.length; i++) {
     if(findFn(array[i])) {
       return array[i];
     } else {
-      return null;
+      return "null";
     }
   }
 }
