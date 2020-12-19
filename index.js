@@ -19,7 +19,7 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 
-fucntion findFn() {
+fucntion findFn(array) {
 const c = Math.floor(Math.random() * 100);
 for (let i = 0; i < array.length; i++){
   if(array[i] === c);
